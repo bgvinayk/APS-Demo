@@ -11,9 +11,9 @@ def hello():
 def home():
     return 'Hello Home!'
 
-@app.route('profile/<username>')
-def profile(username):
-    return '<h1>Hello %s</h1>' % username
+# @app.route('profile/<username>')
+# def profile(username):
+#     return '<h1>Hello %s</h1>' % username
 
 # @app.route('post/<int: id>')
 # def post(id):
